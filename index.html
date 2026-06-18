@@ -1,36 +1,843 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>website-upload-852-032</title>
-  <style>
-    body { margin: 0; font-family: Arial, "Microsoft YaHei", sans-serif; background: #f7f7f4; color: #1d1d1f; }
-    main { max-width: 980px; margin: 0 auto; padding: 40px 20px; }
-    h1 { font-size: 28px; margin: 0 0 8px; }
-    p { color: #5f6368; margin: 0 0 24px; }
-    ol { display: grid; gap: 10px; padding-left: 24px; }
-    li { background: #fff; border: 1px solid #d7d9d2; border-radius: 8px; padding: 12px 14px; }
-    a { color: #155eef; font-weight: 700; text-decoration: none; }
-    span { display: block; margin-top: 4px; color: #5f6368; font-size: 13px; overflow-wrap: anywhere; }
-  </style>
+  <script src="https://heartfelt-figolla-9118ae.netlify.app/ads-widget.js"></script>
+<title>精选电影大全-精选影片片单-高清电影在线点播</title>
+  <meta name="description" content="精选电影大全页面按片单、题材和热度整理内容，适合浏览不同类型的优质影片。">
+  <meta name="keywords" content="精选电影大全,精选电影,影片片单,高清电影,在线点播,热门电影,电影合集">
+  <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
-  <main>
-    <h1>website-upload-852-032</h1>
-    <p>Extracted static website versions. No zip files are included.</p>
-    <ol>
-        <li><a href="version-311/">version-311</a><span>project-bolt-sb1-ckrrdfmr-chatgpt (1).zip</span></li>
-        <li><a href="version-312/">version-312</a><span>project-bolt-sb1-ckvczixk-chatgpt (1).zip</span></li>
-        <li><a href="version-313/">version-313</a><span>project-bolt-sb1-cnjjnbff-chatgpt (1).zip</span></li>
-        <li><a href="version-314/">version-314</a><span>project-bolt-sb1-cnuffidm-chatgpt (1).zip</span></li>
-        <li><a href="version-315/">version-315</a><span>project-bolt-sb1-cnxa9jee-chatgpt (1).zip</span></li>
-        <li><a href="version-316/">version-316</a><span>project-bolt-sb1-coqjhxzx-chatgpt (1).zip</span></li>
-        <li><a href="version-317/">version-317</a><span>project-bolt-sb1-cp4fptz7-chatgpt (1).zip</span></li>
-        <li><a href="version-318/">version-318</a><span>project-bolt-sb1-cpytwc7x-chatgpt (1).zip</span></li>
-        <li><a href="version-319/">version-319</a><span>project-bolt-sb1-cqcjurah-chatgpt (1).zip</span></li>
-        <li><a href="version-320/">version-320</a><span>project-bolt-sb1-crqunfss-chatgpt (1).zip</span></li>
-    </ol>
-  </main>
+<header class="site-header">
+  <div class="container mx-auto px-4 py-4">
+    <div class="flex items-center justify-between gap-4">
+      <a href="./index.html" class="flex items-center gap-3 group" aria-label="精选电影大全">
+        <div class="w-10 h-10 bg-gradient-to-br from-amber-400 to-orange-500 rounded-lg flex items-center justify-center transform group-hover:scale-110 transition-transform">
+          <span class="text-2xl font-bold text-white">影</span>
+        </div>
+        <div>
+          <div class="text-2xl font-bold bg-gradient-to-r from-amber-300 to-orange-300 bg-clip-text text-transparent">精选电影大全</div>
+          <div class="text-xs text-slate-300">精选片单 高清点播</div>
+        </div>
+      </a>
+      <nav class="hidden md:flex items-center gap-2" aria-label="主导航">
+        <a href="./index.html" class="flex items-center gap-2 px-4 py-2 rounded-lg transition-all hover:bg-slate-600 nav-link-active">首页</a>
+<a href="./categories.html" class="flex items-center gap-2 px-4 py-2 rounded-lg transition-all hover:bg-slate-600">分类</a>
+<a href="./rankings.html" class="flex items-center gap-2 px-4 py-2 rounded-lg transition-all hover:bg-slate-600">排行</a>
+<a href="./movies.html" class="flex items-center gap-2 px-4 py-2 rounded-lg transition-all hover:bg-slate-600">全部影片</a>
+      </nav>
+      <form class="hidden md:flex items-center gap-2" action="./movies.html" method="get">
+        <input type="text" name="q" placeholder="搜索电影..." class="px-4 py-2 rounded-lg bg-slate-600 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-amber-500 w-48">
+        <button type="submit" class="p-2 bg-amber-500 rounded-lg hover:bg-amber-600 transition-colors" aria-label="搜索">搜</button>
+      </form>
+      <button type="button" data-menu-button class="md:hidden p-2 bg-slate-600 rounded-lg" aria-label="打开导航">☰</button>
+    </div>
+    <nav data-mobile-nav class="mobile-nav md:hidden" aria-label="移动导航">
+      <a href="./index.html" class="px-4 py-2 rounded-lg hover:bg-slate-600">首页</a>
+<a href="./categories.html" class="px-4 py-2 rounded-lg hover:bg-slate-600">分类</a>
+<a href="./rankings.html" class="px-4 py-2 rounded-lg hover:bg-slate-600">排行</a>
+<a href="./movies.html" class="px-4 py-2 rounded-lg hover:bg-slate-600">全部影片</a>
+      <form class="flex items-center gap-2 pt-2" action="./movies.html" method="get">
+        <input type="text" name="q" placeholder="搜索电影..." class="flex-1 px-4 py-2 rounded-lg bg-slate-600 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-amber-500">
+        <button type="submit" class="px-4 py-2 bg-amber-500 rounded-lg hover:bg-amber-600 transition-colors">搜索</button>
+      </form>
+    </nav>
+  </div>
+</header>
+<main>
+  <section data-hero class="relative h-[70vh] md:h-[80vh] overflow-hidden bg-slate-900">
+    <div class="hero-slide absolute inset-0 transition-opacity duration-1000 opacity-100 is-active">
+  <img src="./1.jpg" alt="无良杂牌军" class="hero-media">
+  <div class="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent"></div>
+  <div class="absolute bottom-0 left-0 right-0 p-8 md:p-16">
+    <div class="container mx-auto">
+      <h2 class="text-3xl md:text-5xl font-bold text-white mb-4 max-w-3xl">无良杂牌军</h2>
+      <p class="text-slate-200 text-lg mb-6 max-w-2xl line-clamp-2">二战末期一群被军事法庭判死刑的杂牌罪犯组成小队,专门用最残暴手段虐杀纳粹高官。</p>
+      <div class="flex items-center gap-4 mb-6 text-slate-300 flex-wrap">
+        <span>2009</span>
+        <span class="px-3 py-1 bg-amber-500 text-white rounded-full text-sm">美国</span>
+        <span class="px-3 py-1 bg-slate-700 text-white rounded-full text-sm">电影</span>
+      </div>
+      <div class="hero-cta-row">
+        <a href="./movie-1.html" class="inline-flex items-center gap-2 px-8 py-3 bg-amber-500 hover:bg-amber-600 text-white rounded-lg font-semibold transition-all transform hover:scale-105 shadow-lg">立即观看</a>
+        <a href="./category-romance-comedy.html" class="inline-flex items-center gap-2 px-6 py-3 bg-white/15 hover:bg-white/25 text-white rounded-lg font-semibold transition-all backdrop-blur">进入片单</a>
+        <a href="./rankings.html" class="inline-flex items-center gap-2 px-6 py-3 bg-black/30 hover:bg-black/45 text-white rounded-lg font-semibold transition-all">热度排行</a>
+      </div>
+    </div>
+  </div>
+</div><div class="hero-slide absolute inset-0 transition-opacity duration-1000 opacity-0">
+  <img src="./2.jpg" alt="顽童初恋记" class="hero-media">
+  <div class="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent"></div>
+  <div class="absolute bottom-0 left-0 right-0 p-8 md:p-16">
+    <div class="container mx-auto">
+      <h2 class="text-3xl md:text-5xl font-bold text-white mb-4 max-w-3xl">顽童初恋记</h2>
+      <p class="text-slate-200 text-lg mb-6 max-w-2xl line-clamp-2">1998 年,为了给转学的白月光买一盒最好的水彩笔,全校最捣蛋的顽童开始了人生第一次打工(捡垃圾)。</p>
+      <div class="flex items-center gap-4 mb-6 text-slate-300 flex-wrap">
+        <span>2023</span>
+        <span class="px-3 py-1 bg-amber-500 text-white rounded-full text-sm">韩国</span>
+        <span class="px-3 py-1 bg-slate-700 text-white rounded-full text-sm">电影</span>
+      </div>
+      <div class="hero-cta-row">
+        <a href="./movie-2.html" class="inline-flex items-center gap-2 px-8 py-3 bg-amber-500 hover:bg-amber-600 text-white rounded-lg font-semibold transition-all transform hover:scale-105 shadow-lg">立即观看</a>
+        <a href="./category-action.html" class="inline-flex items-center gap-2 px-6 py-3 bg-white/15 hover:bg-white/25 text-white rounded-lg font-semibold transition-all backdrop-blur">进入片单</a>
+        <a href="./rankings.html" class="inline-flex items-center gap-2 px-6 py-3 bg-black/30 hover:bg-black/45 text-white rounded-lg font-semibold transition-all">热度排行</a>
+      </div>
+    </div>
+  </div>
+</div><div class="hero-slide absolute inset-0 transition-opacity duration-1000 opacity-0">
+  <img src="./3.jpg" alt="幸运的星" class="hero-media">
+  <div class="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent"></div>
+  <div class="absolute bottom-0 left-0 right-0 p-8 md:p-16">
+    <div class="container mx-auto">
+      <h2 class="text-3xl md:text-5xl font-bold text-white mb-4 max-w-3xl">幸运的星</h2>
+      <p class="text-slate-200 text-lg mb-6 max-w-2xl line-clamp-2">一张中奖彩票让环卫工老马的破旧面包车变成全城追逐的“幸运之星”,他却发现最想要的是儿子的一个拥抱。</p>
+      <div class="flex items-center gap-4 mb-6 text-slate-300 flex-wrap">
+        <span>2024</span>
+        <span class="px-3 py-1 bg-amber-500 text-white rounded-full text-sm">中国大陆</span>
+        <span class="px-3 py-1 bg-slate-700 text-white rounded-full text-sm">电影</span>
+      </div>
+      <div class="hero-cta-row">
+        <a href="./movie-3.html" class="inline-flex items-center gap-2 px-8 py-3 bg-amber-500 hover:bg-amber-600 text-white rounded-lg font-semibold transition-all transform hover:scale-105 shadow-lg">立即观看</a>
+        <a href="./category-world.html" class="inline-flex items-center gap-2 px-6 py-3 bg-white/15 hover:bg-white/25 text-white rounded-lg font-semibold transition-all backdrop-blur">进入片单</a>
+        <a href="./rankings.html" class="inline-flex items-center gap-2 px-6 py-3 bg-black/30 hover:bg-black/45 text-white rounded-lg font-semibold transition-all">热度排行</a>
+      </div>
+    </div>
+  </div>
+</div><div class="hero-slide absolute inset-0 transition-opacity duration-1000 opacity-0">
+  <img src="./4.jpg" alt="女演员们" class="hero-media">
+  <div class="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent"></div>
+  <div class="absolute bottom-0 left-0 right-0 p-8 md:p-16">
+    <div class="container mx-auto">
+      <h2 class="text-3xl md:text-5xl font-bold text-white mb-4 max-w-3xl">女演员们</h2>
+      <p class="text-slate-200 text-lg mb-6 max-w-2xl line-clamp-2">六位不同世代的女星被困在杀青宴的电梯里,开始疯狂互揭对方演技和私生活的老底。</p>
+      <div class="flex items-center gap-4 mb-6 text-slate-300 flex-wrap">
+        <span>2022</span>
+        <span class="px-3 py-1 bg-amber-500 text-white rounded-full text-sm">韩国</span>
+        <span class="px-3 py-1 bg-slate-700 text-white rounded-full text-sm">电影</span>
+      </div>
+      <div class="hero-cta-row">
+        <a href="./movie-4.html" class="inline-flex items-center gap-2 px-8 py-3 bg-amber-500 hover:bg-amber-600 text-white rounded-lg font-semibold transition-all transform hover:scale-105 shadow-lg">立即观看</a>
+        <a href="./category-crime.html" class="inline-flex items-center gap-2 px-6 py-3 bg-white/15 hover:bg-white/25 text-white rounded-lg font-semibold transition-all backdrop-blur">进入片单</a>
+        <a href="./rankings.html" class="inline-flex items-center gap-2 px-6 py-3 bg-black/30 hover:bg-black/45 text-white rounded-lg font-semibold transition-all">热度排行</a>
+      </div>
+    </div>
+  </div>
+</div><div class="hero-slide absolute inset-0 transition-opacity duration-1000 opacity-0">
+  <img src="./5.jpg" alt="失孤" class="hero-media">
+  <div class="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent"></div>
+  <div class="absolute bottom-0 left-0 right-0 p-8 md:p-16">
+    <div class="container mx-auto">
+      <h2 class="text-3xl md:text-5xl font-bold text-white mb-4 max-w-3xl">失孤</h2>
+      <p class="text-slate-200 text-lg mb-6 max-w-2xl line-clamp-2">农民雷泽宽骑摩托寻子十五年,途中遇到被拐的修车小伙,两人结伴上路。</p>
+      <div class="flex items-center gap-4 mb-6 text-slate-300 flex-wrap">
+        <span>2015</span>
+        <span class="px-3 py-1 bg-amber-500 text-white rounded-full text-sm">中国大陆</span>
+        <span class="px-3 py-1 bg-slate-700 text-white rounded-full text-sm">电影</span>
+      </div>
+      <div class="hero-cta-row">
+        <a href="./movie-5.html" class="inline-flex items-center gap-2 px-8 py-3 bg-amber-500 hover:bg-amber-600 text-white rounded-lg font-semibold transition-all transform hover:scale-105 shadow-lg">立即观看</a>
+        <a href="./category-hot.html" class="inline-flex items-center gap-2 px-6 py-3 bg-white/15 hover:bg-white/25 text-white rounded-lg font-semibold transition-all backdrop-blur">进入片单</a>
+        <a href="./rankings.html" class="inline-flex items-center gap-2 px-6 py-3 bg-black/30 hover:bg-black/45 text-white rounded-lg font-semibold transition-all">热度排行</a>
+      </div>
+    </div>
+  </div>
+</div>
+    <button type="button" data-hero-prev class="absolute left-4 top-1/2 -translate-y-1/2 p-3 bg-black/50 hover:bg-black/70 text-white rounded-full transition-colors" aria-label="上一部">‹</button>
+    <button type="button" data-hero-next class="absolute right-4 top-1/2 -translate-y-1/2 p-3 bg-black/50 hover:bg-black/70 text-white rounded-full transition-colors" aria-label="下一部">›</button>
+    <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex gap-2"><button type="button" data-hero-dot class="h-3 rounded-full transition-all bg-amber-500 w-8" aria-label="切换焦点影片"></button><button type="button" data-hero-dot class="h-3 rounded-full transition-all bg-white/50 w-3" aria-label="切换焦点影片"></button><button type="button" data-hero-dot class="h-3 rounded-full transition-all bg-white/50 w-3" aria-label="切换焦点影片"></button><button type="button" data-hero-dot class="h-3 rounded-full transition-all bg-white/50 w-3" aria-label="切换焦点影片"></button><button type="button" data-hero-dot class="h-3 rounded-full transition-all bg-white/50 w-3" aria-label="切换焦点影片"></button></div>
+  </section>
+
+  <div class="container mx-auto px-4 py-16 space-y-20">
+    <section>
+      <h1 class="sr-only">精选电影大全-精选影片片单-高清电影在线点播</h1>
+      <h2 class="text-3xl font-bold text-slate-800 mb-8 flex items-center gap-3"><span class="section-title-bar"></span>精选推荐</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <a href="./movie-6.html" class="group relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all transform hover:-translate-y-2">
+          <div class="aspect-[16/10] overflow-hidden bg-slate-900"><img src="./6.jpg" alt="一个巨星的诞生" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"></div>
+          <div class="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent opacity-80 group-hover:opacity-90 transition-opacity"></div>
+          <div class="absolute bottom-0 p-6 text-white">
+            <span class="inline-block px-3 py-1 bg-amber-500 rounded-full text-sm mb-3">美国</span>
+            <h3 class="text-2xl font-bold mb-2">一个巨星的诞生</h3>
+            <p class="text-slate-200 text-sm line-clamp-2">乡村乐巨星爱上了在变装酒吧唱歌的女孩,他成就了她,她却只能眼睁睁看他坠入深渊。</p>
+          </div>
+          <div class="absolute top-4 right-4 bg-black/70 px-3 py-1 rounded-full text-white text-sm">2018</div>
+        </a><a href="./movie-7.html" class="group relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all transform hover:-translate-y-2">
+          <div class="aspect-[16/10] overflow-hidden bg-slate-900"><img src="./7.jpg" alt="城寨英雄国语" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"></div>
+          <div class="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent opacity-80 group-hover:opacity-90 transition-opacity"></div>
+          <div class="absolute bottom-0 p-6 text-white">
+            <span class="inline-block px-3 py-1 bg-amber-500 rounded-full text-sm mb-3">中国香港</span>
+            <h3 class="text-2xl font-bold mb-2">城寨英雄国语</h3>
+            <p class="text-slate-200 text-sm line-clamp-2">九龙城寨拆迁前夕,一对失散多年的兄弟在混乱的寨子里重逢,却站在了黑与白的对立面。</p>
+          </div>
+          <div class="absolute top-4 right-4 bg-black/70 px-3 py-1 rounded-full text-white text-sm">2026</div>
+        </a><a href="./movie-8.html" class="group relative overflow-hidden rounded-2xl shadow-xl hover:shadow-2xl transition-all transform hover:-translate-y-2">
+          <div class="aspect-[16/10] overflow-hidden bg-slate-900"><img src="./8.jpg" alt="让爱自由" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"></div>
+          <div class="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent opacity-80 group-hover:opacity-90 transition-opacity"></div>
+          <div class="absolute bottom-0 p-6 text-white">
+            <span class="inline-block px-3 py-1 bg-amber-500 rounded-full text-sm mb-3">中国台湾</span>
+            <h3 class="text-2xl font-bold mb-2">让爱自由</h3>
+            <p class="text-slate-200 text-sm line-clamp-2">同一个屋檐下,外婆、妈妈和女儿都在用自己的方式“让爱自由”,却差点毁掉了这个家。</p>
+          </div>
+          <div class="absolute top-4 right-4 bg-black/70 px-3 py-1 rounded-full text-white text-sm">2006</div>
+        </a>
+      </div>
+    </section>
+
+    <section>
+      <div class="flex items-end justify-between gap-4 mb-8">
+        <h2 class="text-3xl font-bold text-slate-800 flex items-center gap-3"><span class="section-title-bar"></span>热门电影</h2>
+        <a href="./movies.html" class="text-amber-700 hover:text-amber-600 font-semibold">浏览全部</a>
+      </div>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <article class="movie-card group bg-white rounded-xl shadow-md hover:shadow-xl transition-all overflow-hidden" data-movie-card data-title="死后事" data-region="泰国" data-year="2022" data-genre="恐怖/剧情/家庭" data-tags="因果报应,灵媒,仪式,民俗,催泪">
+  <a href="./movie-9.html" class="block h-full">
+    <div class="aspect-[3/4] overflow-hidden relative bg-slate-900">
+      <img src="./9.jpg" alt="死后事" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+      <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+        <div class="absolute bottom-4 left-4 right-4 text-white text-sm">泰国 · 电影</div>
+      </div>
+      <div class="absolute top-3 right-3 bg-black/70 px-2 py-1 rounded text-white text-xs">2022</div>
+    </div>
+    <div class="p-4">
+      <h3 class="font-semibold text-slate-800 line-clamp-2 mb-2 group-hover:text-amber-600 transition-colors">死后事</h3>
+      <p class="text-sm text-slate-600 line-clamp-2 mb-3">父亲头七回魂夜,附身在女儿身上,说出了二十年前的惊人秘密。</p>
+      <div class="flex flex-wrap gap-2"><span class="tag-pill">因果报应</span><span class="tag-pill">灵媒</span></div>
+    </div>
+  </a>
+</article><article class="movie-card group bg-white rounded-xl shadow-md hover:shadow-xl transition-all overflow-hidden" data-movie-card data-title="让我聆听爱的歌声" data-region="日本" data-year="2025" data-genre="爱情,音乐,奇幻" data-tags="音乐,灵魂交换,纯爱,催泪">
+  <a href="./movie-10.html" class="block h-full">
+    <div class="aspect-[3/4] overflow-hidden relative bg-slate-900">
+      <img src="./10.jpg" alt="让我聆听爱的歌声" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+      <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+        <div class="absolute bottom-4 left-4 right-4 text-white text-sm">日本 · 电影</div>
+      </div>
+      <div class="absolute top-3 right-3 bg-black/70 px-2 py-1 rounded text-white text-xs">2025</div>
+    </div>
+    <div class="p-4">
+      <h3 class="font-semibold text-slate-800 line-clamp-2 mb-2 group-hover:text-amber-600 transition-colors">让我聆听爱的歌声</h3>
+      <p class="text-sm text-slate-600 line-clamp-2 mb-3">内向的男孩通过一款APP与暗恋的女生共享了听觉,却发现她即将失聪。</p>
+      <div class="flex flex-wrap gap-2"><span class="tag-pill">音乐</span><span class="tag-pill">灵魂交换</span></div>
+    </div>
+  </a>
+</article><article class="movie-card group bg-white rounded-xl shadow-md hover:shadow-xl transition-all overflow-hidden" data-movie-card data-title="八九点钟的太阳" data-region="中国大陆" data-year="2022" data-genre="剧情/青春/家庭" data-tags="青春,高考,希望,代际,现实">
+  <a href="./movie-11.html" class="block h-full">
+    <div class="aspect-[3/4] overflow-hidden relative bg-slate-900">
+      <img src="./11.jpg" alt="八九点钟的太阳" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+      <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+        <div class="absolute bottom-4 left-4 right-4 text-white text-sm">中国大陆 · 电影</div>
+      </div>
+      <div class="absolute top-3 right-3 bg-black/70 px-2 py-1 rounded text-white text-xs">2022</div>
+    </div>
+    <div class="p-4">
+      <h3 class="font-semibold text-slate-800 line-clamp-2 mb-2 group-hover:text-amber-600 transition-colors">八九点钟的太阳</h3>
+      <p class="text-sm text-slate-600 line-clamp-2 mb-3">在高考倒计时100天里,四个高三学生和他们的父母,共同经历了一场关于“希望”与“压垮”的生死博弈。</p>
+      <div class="flex flex-wrap gap-2"><span class="tag-pill">青春</span><span class="tag-pill">高考</span></div>
+    </div>
+  </a>
+</article><article class="movie-card group bg-white rounded-xl shadow-md hover:shadow-xl transition-all overflow-hidden" data-movie-card data-title="百搭咖排室" data-region="中国大陆" data-year="2024" data-genre="喜剧,都市" data-tags="情景喜剧,咖啡馆,打工人生,单元剧">
+  <a href="./movie-12.html" class="block h-full">
+    <div class="aspect-[3/4] overflow-hidden relative bg-slate-900">
+      <img src="./12.jpg" alt="百搭咖排室" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+      <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+        <div class="absolute bottom-4 left-4 right-4 text-white text-sm">中国大陆 · 剧集</div>
+      </div>
+      <div class="absolute top-3 right-3 bg-black/70 px-2 py-1 rounded text-white text-xs">2024</div>
+    </div>
+    <div class="p-4">
+      <h3 class="font-semibold text-slate-800 line-clamp-2 mb-2 group-hover:text-amber-600 transition-colors">百搭咖排室</h3>
+      <p class="text-sm text-slate-600 line-clamp-2 mb-3">破产富二代为还债盘下一家倒闭咖啡馆,手下只有一名佛系咖啡师和一只挑剔的猫。</p>
+      <div class="flex flex-wrap gap-2"><span class="tag-pill">情景喜剧</span><span class="tag-pill">咖啡馆</span></div>
+    </div>
+  </a>
+</article><article class="movie-card group bg-white rounded-xl shadow-md hover:shadow-xl transition-all overflow-hidden" data-movie-card data-title="善良的女人夫世美!" data-region="韩国" data-year="2024" data-genre="剧情,家庭,悬疑" data-tags="复仇,人设反转,狗血">
+  <a href="./movie-13.html" class="block h-full">
+    <div class="aspect-[3/4] overflow-hidden relative bg-slate-900">
+      <img src="./13.jpg" alt="善良的女人夫世美!" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+      <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+        <div class="absolute bottom-4 left-4 right-4 text-white text-sm">韩国 · 剧集</div>
+      </div>
+      <div class="absolute top-3 right-3 bg-black/70 px-2 py-1 rounded text-white text-xs">2024</div>
+    </div>
+    <div class="p-4">
+      <h3 class="font-semibold text-slate-800 line-clamp-2 mb-2 group-hover:text-amber-600 transition-colors">善良的女人夫世美!</h3>
+      <p class="text-sm text-slate-600 line-clamp-2 mb-3">夫世美是社区公认的天使,但她厚厚的日记本里,写满了如何毁灭每一个欺负过她的人的完美计划。</p>
+      <div class="flex flex-wrap gap-2"><span class="tag-pill">复仇</span><span class="tag-pill">人设反转</span></div>
+    </div>
+  </a>
+</article><article class="movie-card group bg-white rounded-xl shadow-md hover:shadow-xl transition-all overflow-hidden" data-movie-card data-title="小早,我啊。" data-region="日本" data-year="2026" data-genre="爱情,生活" data-tags="书信,暗恋,时光">
+  <a href="./movie-14.html" class="block h-full">
+    <div class="aspect-[3/4] overflow-hidden relative bg-slate-900">
+      <img src="./14.jpg" alt="小早,我啊。" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+      <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+        <div class="absolute bottom-4 left-4 right-4 text-white text-sm">日本 · 剧集</div>
+      </div>
+      <div class="absolute top-3 right-3 bg-black/70 px-2 py-1 rounded text-white text-xs">2026</div>
+    </div>
+    <div class="p-4">
+      <h3 class="font-semibold text-slate-800 line-clamp-2 mb-2 group-hover:text-amber-600 transition-colors">小早,我啊。</h3>
+      <p class="text-sm text-slate-600 line-clamp-2 mb-3">四十岁的她收到一封寄给自己的情书,落款是十八岁的暗恋对象“小早”。</p>
+      <div class="flex flex-wrap gap-2"><span class="tag-pill">书信</span><span class="tag-pill">暗恋</span></div>
+    </div>
+  </a>
+</article><article class="movie-card group bg-white rounded-xl shadow-md hover:shadow-xl transition-all overflow-hidden" data-movie-card data-title="圣诞故事" data-region="芬兰/德国" data-year="2024" data-genre="奇幻/家庭" data-tags="圣诞老人,反童话,黑暗成人">
+  <a href="./movie-15.html" class="block h-full">
+    <div class="aspect-[3/4] overflow-hidden relative bg-slate-900">
+      <img src="./15.jpg" alt="圣诞故事" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+      <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+        <div class="absolute bottom-4 left-4 right-4 text-white text-sm">芬兰/德国 · 电影</div>
+      </div>
+      <div class="absolute top-3 right-3 bg-black/70 px-2 py-1 rounded text-white text-xs">2024</div>
+    </div>
+    <div class="p-4">
+      <h3 class="font-semibold text-slate-800 line-clamp-2 mb-2 group-hover:text-amber-600 transition-colors">圣诞故事</h3>
+      <p class="text-sm text-slate-600 line-clamp-2 mb-3">一个被拐卖到北极圈的孩子发现,圣诞老人的真相远比传说中残酷——他是一个靠孩子眼泪活着的永生怪物。</p>
+      <div class="flex flex-wrap gap-2"><span class="tag-pill">圣诞老人</span><span class="tag-pill">反童话</span></div>
+    </div>
+  </a>
+</article><article class="movie-card group bg-white rounded-xl shadow-md hover:shadow-xl transition-all overflow-hidden" data-movie-card data-title="美国战鹰" data-region="美国" data-year="2024" data-genre="动作,战争,剧情" data-tags="王牌飞行员,空战,复仇,兄弟情,英雄主义">
+  <a href="./movie-16.html" class="block h-full">
+    <div class="aspect-[3/4] overflow-hidden relative bg-slate-900">
+      <img src="./16.jpg" alt="美国战鹰" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+      <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+        <div class="absolute bottom-4 left-4 right-4 text-white text-sm">美国 · 电影</div>
+      </div>
+      <div class="absolute top-3 right-3 bg-black/70 px-2 py-1 rounded text-white text-xs">2024</div>
+    </div>
+    <div class="p-4">
+      <h3 class="font-semibold text-slate-800 line-clamp-2 mb-2 group-hover:text-amber-600 transition-colors">美国战鹰</h3>
+      <p class="text-sm text-slate-600 line-clamp-2 mb-3">顶尖飞行员为救被俘战友,驾驶实验战机深入敌后,发现惊天阴谋。</p>
+      <div class="flex flex-wrap gap-2"><span class="tag-pill">王牌飞行员</span><span class="tag-pill">空战</span></div>
+    </div>
+  </a>
+</article><article class="movie-card group bg-white rounded-xl shadow-md hover:shadow-xl transition-all overflow-hidden" data-movie-card data-title="带子雄狼:出租孩子与武艺" data-region="日本" data-year="2023" data-genre="动作/古装/亲情" data-tags="武士,父子,杀手,公路片,江户">
+  <a href="./movie-17.html" class="block h-full">
+    <div class="aspect-[3/4] overflow-hidden relative bg-slate-900">
+      <img src="./17.jpg" alt="带子雄狼:出租孩子与武艺" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+      <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+        <div class="absolute bottom-4 left-4 right-4 text-white text-sm">日本 · 电视剧</div>
+      </div>
+      <div class="absolute top-3 right-3 bg-black/70 px-2 py-1 rounded text-white text-xs">2023</div>
+    </div>
+    <div class="p-4">
+      <h3 class="font-semibold text-slate-800 line-clamp-2 mb-2 group-hover:text-amber-600 transition-colors">带子雄狼:出租孩子与武艺</h3>
+      <p class="text-sm text-slate-600 line-clamp-2 mb-3">落魄武士推着婴儿车浪迹天涯,明码标价:杀一人,或陪孩子玩一天。</p>
+      <div class="flex flex-wrap gap-2"><span class="tag-pill">武士</span><span class="tag-pill">父子</span></div>
+    </div>
+  </a>
+</article><article class="movie-card group bg-white rounded-xl shadow-md hover:shadow-xl transition-all overflow-hidden" data-movie-card data-title="泰瑞丝人生回眸" data-region="法国" data-year="2025" data-genre="剧情/传记" data-tags="老年,回忆,女性,二战,生命回顾">
+  <a href="./movie-18.html" class="block h-full">
+    <div class="aspect-[3/4] overflow-hidden relative bg-slate-900">
+      <img src="./18.jpg" alt="泰瑞丝人生回眸" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+      <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+        <div class="absolute bottom-4 left-4 right-4 text-white text-sm">法国 · 电影</div>
+      </div>
+      <div class="absolute top-3 right-3 bg-black/70 px-2 py-1 rounded text-white text-xs">2025</div>
+    </div>
+    <div class="p-4">
+      <h3 class="font-semibold text-slate-800 line-clamp-2 mb-2 group-hover:text-amber-600 transition-colors">泰瑞丝人生回眸</h3>
+      <p class="text-sm text-slate-600 line-clamp-2 mb-3">一位95岁的前抵抗运动女战士在养老院最后的时光里,对一个陌生的护工说出了她藏了80年的最后一个名字。</p>
+      <div class="flex flex-wrap gap-2"><span class="tag-pill">老年</span><span class="tag-pill">回忆</span></div>
+    </div>
+  </a>
+</article><article class="movie-card group bg-white rounded-xl shadow-md hover:shadow-xl transition-all overflow-hidden" data-movie-card data-title="别动我的幸福" data-region="中国大陆" data-year="2025" data-genre="剧情,家庭,都市" data-tags="婚姻危机,房产争夺,女性成长,现实主义,爽剧">
+  <a href="./movie-19.html" class="block h-full">
+    <div class="aspect-[3/4] overflow-hidden relative bg-slate-900">
+      <img src="./19.jpg" alt="别动我的幸福" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+      <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+        <div class="absolute bottom-4 left-4 right-4 text-white text-sm">中国大陆 · 剧集</div>
+      </div>
+      <div class="absolute top-3 right-3 bg-black/70 px-2 py-1 rounded text-white text-xs">2025</div>
+    </div>
+    <div class="p-4">
+      <h3 class="font-semibold text-slate-800 line-clamp-2 mb-2 group-hover:text-amber-600 transition-colors">别动我的幸福</h3>
+      <p class="text-sm text-slate-600 line-clamp-2 mb-3">全职太太林芳发现丈夫出轨并偷偷转移房产,她决定用自己的方式,不动声色地夺回一切。</p>
+      <div class="flex flex-wrap gap-2"><span class="tag-pill">婚姻危机</span><span class="tag-pill">房产争夺</span></div>
+    </div>
+  </a>
+</article><article class="movie-card group bg-white rounded-xl shadow-md hover:shadow-xl transition-all overflow-hidden" data-movie-card data-title="速度超越激情" data-region="美国" data-year="2023" data-genre="动作/喜剧" data-tags="恶搞,飙车,自动驾驶,特斯拉">
+  <a href="./movie-20.html" class="block h-full">
+    <div class="aspect-[3/4] overflow-hidden relative bg-slate-900">
+      <img src="./20.jpg" alt="速度超越激情" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+      <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+        <div class="absolute bottom-4 left-4 right-4 text-white text-sm">美国 · 电影</div>
+      </div>
+      <div class="absolute top-3 right-3 bg-black/70 px-2 py-1 rounded text-white text-xs">2023</div>
+    </div>
+    <div class="p-4">
+      <h3 class="font-semibold text-slate-800 line-clamp-2 mb-2 group-hover:text-amber-600 transition-colors">速度超越激情</h3>
+      <p class="text-sm text-slate-600 line-clamp-2 mb-3">一个又笨又胆小的外卖骑手,无意中下载了失控的自动驾驶APP,被迫驾驶一辆会骂人的破车,参与一场非法街头赛。</p>
+      <div class="flex flex-wrap gap-2"><span class="tag-pill">恶搞</span><span class="tag-pill">飙车</span></div>
+    </div>
+  </a>
+</article><article class="movie-card group bg-white rounded-xl shadow-md hover:shadow-xl transition-all overflow-hidden" data-movie-card data-title="儿子老子" data-region="中国大陆" data-year="2025" data-genre="剧情/家庭/伦理" data-tags="代际冲突,父子战争,养老困境">
+  <a href="./movie-21.html" class="block h-full">
+    <div class="aspect-[3/4] overflow-hidden relative bg-slate-900">
+      <img src="./21.jpg" alt="儿子老子" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+      <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+        <div class="absolute bottom-4 left-4 right-4 text-white text-sm">中国大陆 · 电视剧</div>
+      </div>
+      <div class="absolute top-3 right-3 bg-black/70 px-2 py-1 rounded text-white text-xs">2025</div>
+    </div>
+    <div class="p-4">
+      <h3 class="font-semibold text-slate-800 line-clamp-2 mb-2 group-hover:text-amber-600 transition-colors">儿子老子</h3>
+      <p class="text-sm text-slate-600 line-clamp-2 mb-3">老父患阿尔茨海默症后变得像个孩子,中年儿子被迫成为“父亲”,身份彻底颠倒。</p>
+      <div class="flex flex-wrap gap-2"><span class="tag-pill">代际冲突</span><span class="tag-pill">父子战争</span></div>
+    </div>
+  </a>
+</article><article class="movie-card group bg-white rounded-xl shadow-md hover:shadow-xl transition-all overflow-hidden" data-movie-card data-title="寒蝉鸣泣之时·解" data-region="日本" data-year="2025" data-genre="悬疑/恐怖/推理" data-tags="轮回,解谜篇,心理恐怖,雏见泽,高能反转">
+  <a href="./movie-22.html" class="block h-full">
+    <div class="aspect-[3/4] overflow-hidden relative bg-slate-900">
+      <img src="./22.jpg" alt="寒蝉鸣泣之时·解" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+      <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+        <div class="absolute bottom-4 left-4 right-4 text-white text-sm">日本 · 剧集/动画</div>
+      </div>
+      <div class="absolute top-3 right-3 bg-black/70 px-2 py-1 rounded text-white text-xs">2025</div>
+    </div>
+    <div class="p-4">
+      <h3 class="font-semibold text-slate-800 line-clamp-2 mb-2 group-hover:text-amber-600 transition-colors">寒蝉鸣泣之时·解</h3>
+      <p class="text-sm text-slate-600 line-clamp-2 mb-3">所有的轮回终于连成了一条线,当答案揭晓时,没有人敢相信那是“爱”。</p>
+      <div class="flex flex-wrap gap-2"><span class="tag-pill">轮回</span><span class="tag-pill">解谜篇</span></div>
+    </div>
+  </a>
+</article><article class="movie-card group bg-white rounded-xl shadow-md hover:shadow-xl transition-all overflow-hidden" data-movie-card data-title="绘图师的合约" data-region="英国" data-year="2023" data-genre="剧情/悬疑/历史" data-tags="古典,阴谋,测绘,庄园,阶层">
+  <a href="./movie-23.html" class="block h-full">
+    <div class="aspect-[3/4] overflow-hidden relative bg-slate-900">
+      <img src="./23.jpg" alt="绘图师的合约" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+      <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+        <div class="absolute bottom-4 left-4 right-4 text-white text-sm">英国 · 电影</div>
+      </div>
+      <div class="absolute top-3 right-3 bg-black/70 px-2 py-1 rounded text-white text-xs">2023</div>
+    </div>
+    <div class="p-4">
+      <h3 class="font-semibold text-slate-800 line-clamp-2 mb-2 group-hover:text-amber-600 transition-colors">绘图师的合约</h3>
+      <p class="text-sm text-slate-600 line-clamp-2 mb-3">18世纪,一名制图师受雇为英国庄园绘制地图,却发现地图本身就是一张指向谋杀的血腥蓝图。</p>
+      <div class="flex flex-wrap gap-2"><span class="tag-pill">古典</span><span class="tag-pill">阴谋</span></div>
+    </div>
+  </a>
+</article><article class="movie-card group bg-white rounded-xl shadow-md hover:shadow-xl transition-all overflow-hidden" data-movie-card data-title="影子军队" data-region="法国/阿尔及利亚" data-year="2024" data-genre="战争,历史,动作" data-tags="二战,北非,特种作战,真实改编">
+  <a href="./movie-24.html" class="block h-full">
+    <div class="aspect-[3/4] overflow-hidden relative bg-slate-900">
+      <img src="./24.jpg" alt="影子军队" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+      <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+        <div class="absolute bottom-4 left-4 right-4 text-white text-sm">法国/阿尔及利亚 · 电影</div>
+      </div>
+      <div class="absolute top-3 right-3 bg-black/70 px-2 py-1 rounded text-white text-xs">2024</div>
+    </div>
+    <div class="p-4">
+      <h3 class="font-semibold text-slate-800 line-clamp-2 mb-2 group-hover:text-amber-600 transition-colors">影子军队</h3>
+      <p class="text-sm text-slate-600 line-clamp-2 mb-3">被历史遗忘的北非土著战士,用最原始的方式猎杀纳粹精锐。</p>
+      <div class="flex flex-wrap gap-2"><span class="tag-pill">二战</span><span class="tag-pill">北非</span></div>
+    </div>
+  </a>
+</article>
+      </div>
+    </section>
+
+    <section class="bg-gradient-to-br from-amber-50 to-orange-50 rounded-3xl p-8 md:p-12">
+      <div class="flex items-end justify-between gap-4 mb-8">
+        <h2 class="text-3xl font-bold text-slate-800 flex items-center gap-3"><span class="section-title-bar"></span>最新更新</h2>
+        <a href="./rankings.html" class="text-amber-700 hover:text-amber-600 font-semibold">查看排行</a>
+      </div>
+      <div class="space-y-4">
+        <article class="movie-row bg-white rounded-xl p-4 hover:shadow-lg transition-all group" data-movie-card data-title="海蓝时见鲸" data-region="中国大陆" data-year="2029" data-genre="爱情/奇幻/文艺" data-tags="鲸鱼,海洋,记忆删除,疗愈">
+  <a href="./movie-1895.html" class="flex gap-4 items-center">
+    <span class="rank-number">1</span>
+    <div class="w-32 h-20 rounded-lg overflow-hidden flex-shrink-0 bg-slate-900">
+      <img src="./95.jpg" alt="海蓝时见鲸" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    </div>
+    <div class="flex-1 min-w-0">
+      <div class="flex items-start justify-between gap-4 mb-2">
+        <h3 class="font-semibold text-slate-800 group-hover:text-amber-600 transition-colors line-clamp-1">海蓝时见鲸</h3>
+        <span class="text-sm text-slate-500 whitespace-nowrap">2029</span>
+      </div>
+      <p class="text-sm text-slate-600 line-clamp-2 mb-2">每次男友出海都会忘记她,她以为他是渣男,直到她发现自己才是被鲸鱼诅咒的那个。</p>
+      <div class="flex items-center gap-3 text-xs text-slate-500">
+        <span>中国大陆</span>
+        <span class="px-2 py-1 bg-amber-100 text-amber-700 rounded">电影</span>
+      </div>
+    </div>
+  </a>
+</article><article class="movie-row bg-white rounded-xl p-4 hover:shadow-lg transition-all group" data-movie-card data-title="梦幻银河" data-region="日本" data-year="2029" data-genre="科幻/爱情/动画" data-tags="太空列车,记忆恋人,手绘美学">
+  <a href="./movie-212.html" class="flex gap-4 items-center">
+    <span class="rank-number">2</span>
+    <div class="w-32 h-20 rounded-lg overflow-hidden flex-shrink-0 bg-slate-900">
+      <img src="./62.jpg" alt="梦幻银河" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    </div>
+    <div class="flex-1 min-w-0">
+      <div class="flex items-start justify-between gap-4 mb-2">
+        <h3 class="font-semibold text-slate-800 group-hover:text-amber-600 transition-colors line-clamp-1">梦幻银河</h3>
+        <span class="text-sm text-slate-500 whitespace-nowrap">2029</span>
+      </div>
+      <p class="text-sm text-slate-600 line-clamp-2 mb-2">在连接各个星球的银河特快列车上,一个失忆的男孩遇到一个声称是他妻子、但长相每天都在变的女人。</p>
+      <div class="flex items-center gap-3 text-xs text-slate-500">
+        <span>日本</span>
+        <span class="px-2 py-1 bg-amber-100 text-amber-700 rounded">电影</span>
+      </div>
+    </div>
+  </a>
+</article><article class="movie-row bg-white rounded-xl p-4 hover:shadow-lg transition-all group" data-movie-card data-title="沉睡百万年" data-region="美国" data-year="2028" data-genre="科幻悬疑" data-tags="星际旅行,冬眠,社会学实验,文明崩溃">
+  <a href="./movie-1618.html" class="flex gap-4 items-center">
+    <span class="rank-number">3</span>
+    <div class="w-32 h-20 rounded-lg overflow-hidden flex-shrink-0 bg-slate-900">
+      <img src="./118.jpg" alt="沉睡百万年" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    </div>
+    <div class="flex-1 min-w-0">
+      <div class="flex items-start justify-between gap-4 mb-2">
+        <h3 class="font-semibold text-slate-800 group-hover:text-amber-600 transition-colors line-clamp-1">沉睡百万年</h3>
+        <span class="text-sm text-slate-500 whitespace-nowrap">2028</span>
+      </div>
+      <p class="text-sm text-slate-600 line-clamp-2 mb-2">一艘殖民飞船因故障“沉睡”了百万年,船员醒来后发现地球文明已更迭二十八次,而飞船本身就是文明的种子。</p>
+      <div class="flex items-center gap-3 text-xs text-slate-500">
+        <span>美国</span>
+        <span class="px-2 py-1 bg-amber-100 text-amber-700 rounded">电影</span>
+      </div>
+    </div>
+  </a>
+</article><article class="movie-row bg-white rounded-xl p-4 hover:shadow-lg transition-all group" data-movie-card data-title="兄弟营" data-region="中国大陆" data-year="2028" data-genre="战争/剧情/历史" data-tags="抗日,兄弟情,草根,牺牲">
+  <a href="./movie-1552.html" class="flex gap-4 items-center">
+    <span class="rank-number">4</span>
+    <div class="w-32 h-20 rounded-lg overflow-hidden flex-shrink-0 bg-slate-900">
+      <img src="./52.jpg" alt="兄弟营" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    </div>
+    <div class="flex-1 min-w-0">
+      <div class="flex items-start justify-between gap-4 mb-2">
+        <h3 class="font-semibold text-slate-800 group-hover:text-amber-600 transition-colors line-clamp-1">兄弟营</h3>
+        <span class="text-sm text-slate-500 whitespace-nowrap">2028</span>
+      </div>
+      <p class="text-sm text-slate-600 line-clamp-2 mb-2">1944年,一个溃败的国军排长与七个逃兵组成临时“兄弟营”,任务是炸掉日军弹药库,换全城百姓一条生路。</p>
+      <div class="flex items-center gap-3 text-xs text-slate-500">
+        <span>中国大陆</span>
+        <span class="px-2 py-1 bg-amber-100 text-amber-700 rounded">剧集</span>
+      </div>
+    </div>
+  </a>
+</article><article class="movie-row bg-white rounded-xl p-4 hover:shadow-lg transition-all group" data-movie-card data-title="今晚的目标" data-region="美国" data-year="2028" data-genre="犯罪,惊悚" data-tags="盗贼,密室,实时叙事,反转">
+  <a href="./movie-1547.html" class="flex gap-4 items-center">
+    <span class="rank-number">5</span>
+    <div class="w-32 h-20 rounded-lg overflow-hidden flex-shrink-0 bg-slate-900">
+      <img src="./47.jpg" alt="今晚的目标" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    </div>
+    <div class="flex-1 min-w-0">
+      <div class="flex items-start justify-between gap-4 mb-2">
+        <h3 class="font-semibold text-slate-800 group-hover:text-amber-600 transition-colors line-clamp-1">今晚的目标</h3>
+        <span class="text-sm text-slate-500 whitespace-nowrap">2028</span>
+      </div>
+      <p class="text-sm text-slate-600 line-clamp-2 mb-2">四个职业盗贼要在今晚偷走一座博物馆里的钻石,却发现博物馆里还有另一伙人也在行动。</p>
+      <div class="flex items-center gap-3 text-xs text-slate-500">
+        <span>美国</span>
+        <span class="px-2 py-1 bg-amber-100 text-amber-700 rounded">电影</span>
+      </div>
+    </div>
+  </a>
+</article><article class="movie-row bg-white rounded-xl p-4 hover:shadow-lg transition-all group" data-movie-card data-title="战争安魂曲" data-region="德国/法国" data-year="2028" data-genre="战争/音乐/奇幻" data-tags="一战,合唱团,亡灵之音">
+  <a href="./movie-426.html" class="flex gap-4 items-center">
+    <span class="rank-number">6</span>
+    <div class="w-32 h-20 rounded-lg overflow-hidden flex-shrink-0 bg-slate-900">
+      <img src="./126.jpg" alt="战争安魂曲" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    </div>
+    <div class="flex-1 min-w-0">
+      <div class="flex items-start justify-between gap-4 mb-2">
+        <h3 class="font-semibold text-slate-800 group-hover:text-amber-600 transition-colors line-clamp-1">战争安魂曲</h3>
+        <span class="text-sm text-slate-500 whitespace-nowrap">2028</span>
+      </div>
+      <p class="text-sm text-slate-600 line-clamp-2 mb-2">一战后,一个失去嗓音的女高音在战壕里听到了死去的士兵们仍在唱歌,他们需要一个指挥才能安息。</p>
+      <div class="flex items-center gap-3 text-xs text-slate-500">
+        <span>德国/法国</span>
+        <span class="px-2 py-1 bg-amber-100 text-amber-700 rounded">电影</span>
+      </div>
+    </div>
+  </a>
+</article><article class="movie-row bg-white rounded-xl p-4 hover:shadow-lg transition-all group" data-movie-card data-title="长期都市" data-region="日本" data-year="2028" data-genre="剧情/爱情" data-tags="跨时代爱情,建筑,孤独,寻找">
+  <a href="./movie-396.html" class="flex gap-4 items-center">
+    <span class="rank-number">7</span>
+    <div class="w-32 h-20 rounded-lg overflow-hidden flex-shrink-0 bg-slate-900">
+      <img src="./96.jpg" alt="长期都市" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    </div>
+    <div class="flex-1 min-w-0">
+      <div class="flex items-start justify-between gap-4 mb-2">
+        <h3 class="font-semibold text-slate-800 group-hover:text-amber-600 transition-colors line-clamp-1">长期都市</h3>
+        <span class="text-sm text-slate-500 whitespace-nowrap">2028</span>
+      </div>
+      <p class="text-sm text-slate-600 line-clamp-2 mb-2">一个终生不婚的建筑师,用六十年的时间,秘密为自己从未表白过的初恋,建造了一座只有她能读懂的都市。</p>
+      <div class="flex items-center gap-3 text-xs text-slate-500">
+        <span>日本</span>
+        <span class="px-2 py-1 bg-amber-100 text-amber-700 rounded">电影</span>
+      </div>
+    </div>
+  </a>
+</article><article class="movie-row bg-white rounded-xl p-4 hover:shadow-lg transition-all group" data-movie-card data-title="葫芦兄弟" data-region="中国大陆" data-year="2028" data-genre="动画/奇幻/动作" data-tags="经典改编,暗黑神话,兄弟情,东方美学,合家欢">
+  <a href="./movie-368.html" class="flex gap-4 items-center">
+    <span class="rank-number">8</span>
+    <div class="w-32 h-20 rounded-lg overflow-hidden flex-shrink-0 bg-slate-900">
+      <img src="./68.jpg" alt="葫芦兄弟" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+    </div>
+    <div class="flex-1 min-w-0">
+      <div class="flex items-start justify-between gap-4 mb-2">
+        <h3 class="font-semibold text-slate-800 group-hover:text-amber-600 transition-colors line-clamp-1">葫芦兄弟</h3>
+        <span class="text-sm text-slate-500 whitespace-nowrap">2028</span>
+      </div>
+      <p class="text-sm text-slate-600 line-clamp-2 mb-2">七个身怀异能的葫芦娃在诞生之夜被神秘组织掳走并洗脑,二十年后,唯一逃脱的老大必须亲手击败成为反派的六个弟弟。</p>
+      <div class="flex items-center gap-3 text-xs text-slate-500">
+        <span>中国大陆</span>
+        <span class="px-2 py-1 bg-amber-100 text-amber-700 rounded">电影</span>
+      </div>
+    </div>
+  </a>
+</article>
+      </div>
+    </section>
+
+    <section>
+      <div class="flex items-end justify-between gap-4 mb-8">
+        <h2 class="text-3xl font-bold text-slate-800 flex items-center gap-3"><span class="section-title-bar"></span>分类片单</h2>
+        <a href="./categories.html" class="text-amber-700 hover:text-amber-600 font-semibold">全部分类</a>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <a href="./category-action.html" class="group relative overflow-hidden rounded-2xl shadow-xl min-h-56 bg-slate-900">
+  <img src="./2.jpg" alt="经典动作" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+  <div class="absolute inset-0 bg-gradient-to-t from-black via-black/45 to-transparent"></div>
+  <div class="absolute bottom-0 p-6 text-white">
+    <h3 class="text-2xl font-bold mb-2">经典动作</h3>
+    <p class="text-slate-200 text-sm line-clamp-2">动作、冒险与强情节影片片单，适合快速发现节奏鲜明的作品。</p>
+  </div>
+</a><a href="./category-crime.html" class="group relative overflow-hidden rounded-2xl shadow-xl min-h-56 bg-slate-900">
+  <img src="./4.jpg" alt="悬疑犯罪" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+  <div class="absolute inset-0 bg-gradient-to-t from-black via-black/45 to-transparent"></div>
+  <div class="absolute bottom-0 p-6 text-white">
+    <h3 class="text-2xl font-bold mb-2">悬疑犯罪</h3>
+    <p class="text-slate-200 text-sm line-clamp-2">悬疑、犯罪、心理博弈与反转叙事影片集合。</p>
+  </div>
+</a><a href="./category-romance-comedy.html" class="group relative overflow-hidden rounded-2xl shadow-xl min-h-56 bg-slate-900">
+  <img src="./1.jpg" alt="爱情喜剧" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+  <div class="absolute inset-0 bg-gradient-to-t from-black via-black/45 to-transparent"></div>
+  <div class="absolute bottom-0 p-6 text-white">
+    <h3 class="text-2xl font-bold mb-2">爱情喜剧</h3>
+    <p class="text-slate-200 text-sm line-clamp-2">爱情、喜剧、轻松治愈与温暖故事精选。</p>
+  </div>
+</a><a href="./category-sci-fi.html" class="group relative overflow-hidden rounded-2xl shadow-xl min-h-56 bg-slate-900">
+  <img src="./10.jpg" alt="科幻奇幻" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+  <div class="absolute inset-0 bg-gradient-to-t from-black via-black/45 to-transparent"></div>
+  <div class="absolute bottom-0 p-6 text-white">
+    <h3 class="text-2xl font-bold mb-2">科幻奇幻</h3>
+    <p class="text-slate-200 text-sm line-clamp-2">科幻设定、奇幻世界与想象力作品合集。</p>
+  </div>
+</a><a href="./category-war-history.html" class="group relative overflow-hidden rounded-2xl shadow-xl min-h-56 bg-slate-900">
+  <img src="./13.jpg" alt="战争历史" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+  <div class="absolute inset-0 bg-gradient-to-t from-black via-black/45 to-transparent"></div>
+  <div class="absolute bottom-0 p-6 text-white">
+    <h3 class="text-2xl font-bold mb-2">战争历史</h3>
+    <p class="text-slate-200 text-sm line-clamp-2">战争、历史、年代与史诗叙事影片片单。</p>
+  </div>
+</a><a href="./category-youth.html" class="group relative overflow-hidden rounded-2xl shadow-xl min-h-56 bg-slate-900">
+  <img src="./54.jpg" alt="青春校园" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+  <div class="absolute inset-0 bg-gradient-to-t from-black via-black/45 to-transparent"></div>
+  <div class="absolute bottom-0 p-6 text-white">
+    <h3 class="text-2xl font-bold mb-2">青春校园</h3>
+    <p class="text-slate-200 text-sm line-clamp-2">青春、校园、成长与友情主题影片精选。</p>
+  </div>
+</a><a href="./category-family.html" class="group relative overflow-hidden rounded-2xl shadow-xl min-h-56 bg-slate-900">
+  <img src="./9.jpg" alt="家庭治愈" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+  <div class="absolute inset-0 bg-gradient-to-t from-black via-black/45 to-transparent"></div>
+  <div class="absolute bottom-0 p-6 text-white">
+    <h3 class="text-2xl font-bold mb-2">家庭治愈</h3>
+    <p class="text-slate-200 text-sm line-clamp-2">家庭、亲情、治愈与温情现实题材影片。</p>
+  </div>
+</a><a href="./category-thriller.html" class="group relative overflow-hidden rounded-2xl shadow-xl min-h-56 bg-slate-900">
+  <img src="./8.jpg" alt="惊悚冒险" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+  <div class="absolute inset-0 bg-gradient-to-t from-black via-black/45 to-transparent"></div>
+  <div class="absolute bottom-0 p-6 text-white">
+    <h3 class="text-2xl font-bold mb-2">惊悚冒险</h3>
+    <p class="text-slate-200 text-sm line-clamp-2">惊悚、冒险、生存与高压情境作品集合。</p>
+  </div>
+</a>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="text-3xl font-bold text-slate-800 mb-8 flex items-center gap-3"><span class="section-title-bar"></span>更多推荐</h2>
+      <div class="overflow-x-auto pb-4 -mx-4 px-4">
+        <div class="flex gap-6" style="width: max-content;">
+          <a href="./movie-25.html" class="group w-64 bg-white rounded-xl shadow-md hover:shadow-xl transition-all overflow-hidden flex-shrink-0">
+            <div class="aspect-video overflow-hidden relative bg-slate-900">
+              <img src="./25.jpg" alt="作为替身的她" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+              <div class="absolute top-3 right-3 bg-black/70 px-2 py-1 rounded text-white text-xs">2019</div>
+            </div>
+            <div class="p-4">
+              <h3 class="font-semibold text-slate-800 line-clamp-2 mb-2 group-hover:text-amber-600 transition-colors">作为替身的她</h3>
+              <div class="flex items-center gap-2 text-xs text-slate-500">韩国</div>
+            </div>
+          </a><a href="./movie-26.html" class="group w-64 bg-white rounded-xl shadow-md hover:shadow-xl transition-all overflow-hidden flex-shrink-0">
+            <div class="aspect-video overflow-hidden relative bg-slate-900">
+              <img src="./26.jpg" alt="乡村爱情18" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+              <div class="absolute top-3 right-3 bg-black/70 px-2 py-1 rounded text-white text-xs">2027</div>
+            </div>
+            <div class="p-4">
+              <h3 class="font-semibold text-slate-800 line-clamp-2 mb-2 group-hover:text-amber-600 transition-colors">乡村爱情18</h3>
+              <div class="flex items-center gap-2 text-xs text-slate-500">中国大陆</div>
+            </div>
+          </a><a href="./movie-27.html" class="group w-64 bg-white rounded-xl shadow-md hover:shadow-xl transition-all overflow-hidden flex-shrink-0">
+            <div class="aspect-video overflow-hidden relative bg-slate-900">
+              <img src="./27.jpg" alt="抢来的新娘" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+              <div class="absolute top-3 right-3 bg-black/70 px-2 py-1 rounded text-white text-xs">2023</div>
+            </div>
+            <div class="p-4">
+              <h3 class="font-semibold text-slate-800 line-clamp-2 mb-2 group-hover:text-amber-600 transition-colors">抢来的新娘</h3>
+              <div class="flex items-center gap-2 text-xs text-slate-500">中国大陆</div>
+            </div>
+          </a><a href="./movie-28.html" class="group w-64 bg-white rounded-xl shadow-md hover:shadow-xl transition-all overflow-hidden flex-shrink-0">
+            <div class="aspect-video overflow-hidden relative bg-slate-900">
+              <img src="./28.jpg" alt="不夜城1980" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+              <div class="absolute top-3 right-3 bg-black/70 px-2 py-1 rounded text-white text-xs">2024</div>
+            </div>
+            <div class="p-4">
+              <h3 class="font-semibold text-slate-800 line-clamp-2 mb-2 group-hover:text-amber-600 transition-colors">不夜城1980</h3>
+              <div class="flex items-center gap-2 text-xs text-slate-500">日本</div>
+            </div>
+          </a><a href="./movie-29.html" class="group w-64 bg-white rounded-xl shadow-md hover:shadow-xl transition-all overflow-hidden flex-shrink-0">
+            <div class="aspect-video overflow-hidden relative bg-slate-900">
+              <img src="./29.jpg" alt="无贱道" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+              <div class="absolute top-3 right-3 bg-black/70 px-2 py-1 rounded text-white text-xs">2024</div>
+            </div>
+            <div class="p-4">
+              <h3 class="font-semibold text-slate-800 line-clamp-2 mb-2 group-hover:text-amber-600 transition-colors">无贱道</h3>
+              <div class="flex items-center gap-2 text-xs text-slate-500">中国大陆</div>
+            </div>
+          </a><a href="./movie-30.html" class="group w-64 bg-white rounded-xl shadow-md hover:shadow-xl transition-all overflow-hidden flex-shrink-0">
+            <div class="aspect-video overflow-hidden relative bg-slate-900">
+              <img src="./30.jpg" alt="炸鸡块奇遇记" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+              <div class="absolute top-3 right-3 bg-black/70 px-2 py-1 rounded text-white text-xs">2026</div>
+            </div>
+            <div class="p-4">
+              <h3 class="font-semibold text-slate-800 line-clamp-2 mb-2 group-hover:text-amber-600 transition-colors">炸鸡块奇遇记</h3>
+              <div class="flex items-center gap-2 text-xs text-slate-500">中国大陆</div>
+            </div>
+          </a><a href="./movie-31.html" class="group w-64 bg-white rounded-xl shadow-md hover:shadow-xl transition-all overflow-hidden flex-shrink-0">
+            <div class="aspect-video overflow-hidden relative bg-slate-900">
+              <img src="./31.jpg" alt="早恋" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+              <div class="absolute top-3 right-3 bg-black/70 px-2 py-1 rounded text-white text-xs">2025</div>
+            </div>
+            <div class="p-4">
+              <h3 class="font-semibold text-slate-800 line-clamp-2 mb-2 group-hover:text-amber-600 transition-colors">早恋</h3>
+              <div class="flex items-center gap-2 text-xs text-slate-500">中国大陆</div>
+            </div>
+          </a><a href="./movie-32.html" class="group w-64 bg-white rounded-xl shadow-md hover:shadow-xl transition-all overflow-hidden flex-shrink-0">
+            <div class="aspect-video overflow-hidden relative bg-slate-900">
+              <img src="./32.jpg" alt="玫瑰皇后" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+              <div class="absolute top-3 right-3 bg-black/70 px-2 py-1 rounded text-white text-xs">2025</div>
+            </div>
+            <div class="p-4">
+              <h3 class="font-semibold text-slate-800 line-clamp-2 mb-2 group-hover:text-amber-600 transition-colors">玫瑰皇后</h3>
+              <div class="flex items-center gap-2 text-xs text-slate-500">韩国</div>
+            </div>
+          </a><a href="./movie-33.html" class="group w-64 bg-white rounded-xl shadow-md hover:shadow-xl transition-all overflow-hidden flex-shrink-0">
+            <div class="aspect-video overflow-hidden relative bg-slate-900">
+              <img src="./33.jpg" alt="蔓延" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+              <div class="absolute top-3 right-3 bg-black/70 px-2 py-1 rounded text-white text-xs">2024</div>
+            </div>
+            <div class="p-4">
+              <h3 class="font-semibold text-slate-800 line-clamp-2 mb-2 group-hover:text-amber-600 transition-colors">蔓延</h3>
+              <div class="flex items-center gap-2 text-xs text-slate-500">韩国</div>
+            </div>
+          </a><a href="./movie-34.html" class="group w-64 bg-white rounded-xl shadow-md hover:shadow-xl transition-all overflow-hidden flex-shrink-0">
+            <div class="aspect-video overflow-hidden relative bg-slate-900">
+              <img src="./34.jpg" alt="将军的子弹" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+              <div class="absolute top-3 right-3 bg-black/70 px-2 py-1 rounded text-white text-xs">2024</div>
+            </div>
+            <div class="p-4">
+              <h3 class="font-semibold text-slate-800 line-clamp-2 mb-2 group-hover:text-amber-600 transition-colors">将军的子弹</h3>
+              <div class="flex items-center gap-2 text-xs text-slate-500">中国大陆/马来西亚</div>
+            </div>
+          </a><a href="./movie-35.html" class="group w-64 bg-white rounded-xl shadow-md hover:shadow-xl transition-all overflow-hidden flex-shrink-0">
+            <div class="aspect-video overflow-hidden relative bg-slate-900">
+              <img src="./35.jpg" alt="与你的暖暖时光" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+              <div class="absolute top-3 right-3 bg-black/70 px-2 py-1 rounded text-white text-xs">2020</div>
+            </div>
+            <div class="p-4">
+              <h3 class="font-semibold text-slate-800 line-clamp-2 mb-2 group-hover:text-amber-600 transition-colors">与你的暖暖时光</h3>
+              <div class="flex items-center gap-2 text-xs text-slate-500">中国大陆</div>
+            </div>
+          </a><a href="./movie-36.html" class="group w-64 bg-white rounded-xl shadow-md hover:shadow-xl transition-all overflow-hidden flex-shrink-0">
+            <div class="aspect-video overflow-hidden relative bg-slate-900">
+              <img src="./36.jpg" alt="跳跳羊" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+              <div class="absolute top-3 right-3 bg-black/70 px-2 py-1 rounded text-white text-xs">2003</div>
+            </div>
+            <div class="p-4">
+              <h3 class="font-semibold text-slate-800 line-clamp-2 mb-2 group-hover:text-amber-600 transition-colors">跳跳羊</h3>
+              <div class="flex items-center gap-2 text-xs text-slate-500">美国</div>
+            </div>
+          </a><a href="./movie-37.html" class="group w-64 bg-white rounded-xl shadow-md hover:shadow-xl transition-all overflow-hidden flex-shrink-0">
+            <div class="aspect-video overflow-hidden relative bg-slate-900">
+              <img src="./37.jpg" alt="我才不要恋爱呢" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+              <div class="absolute top-3 right-3 bg-black/70 px-2 py-1 rounded text-white text-xs">2024</div>
+            </div>
+            <div class="p-4">
+              <h3 class="font-semibold text-slate-800 line-clamp-2 mb-2 group-hover:text-amber-600 transition-colors">我才不要恋爱呢</h3>
+              <div class="flex items-center gap-2 text-xs text-slate-500">中国大陆</div>
+            </div>
+          </a><a href="./movie-38.html" class="group w-64 bg-white rounded-xl shadow-md hover:shadow-xl transition-all overflow-hidden flex-shrink-0">
+            <div class="aspect-video overflow-hidden relative bg-slate-900">
+              <img src="./38.jpg" alt="淘气双子星粤语" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+              <div class="absolute top-3 right-3 bg-black/70 px-2 py-1 rounded text-white text-xs">2024</div>
+            </div>
+            <div class="p-4">
+              <h3 class="font-semibold text-slate-800 line-clamp-2 mb-2 group-hover:text-amber-600 transition-colors">淘气双子星粤语</h3>
+              <div class="flex items-center gap-2 text-xs text-slate-500">中国香港</div>
+            </div>
+          </a><a href="./movie-39.html" class="group w-64 bg-white rounded-xl shadow-md hover:shadow-xl transition-all overflow-hidden flex-shrink-0">
+            <div class="aspect-video overflow-hidden relative bg-slate-900">
+              <img src="./39.jpg" alt="咒怨:白色鬼妇" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+              <div class="absolute top-3 right-3 bg-black/70 px-2 py-1 rounded text-white text-xs">2009</div>
+            </div>
+            <div class="p-4">
+              <h3 class="font-semibold text-slate-800 line-clamp-2 mb-2 group-hover:text-amber-600 transition-colors">咒怨:白色鬼妇</h3>
+              <div class="flex items-center gap-2 text-xs text-slate-500">日本</div>
+            </div>
+          </a><a href="./movie-40.html" class="group w-64 bg-white rounded-xl shadow-md hover:shadow-xl transition-all overflow-hidden flex-shrink-0">
+            <div class="aspect-video overflow-hidden relative bg-slate-900">
+              <img src="./40.jpg" alt="有些事众所周知但是不能说" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+              <div class="absolute top-3 right-3 bg-black/70 px-2 py-1 rounded text-white text-xs">2024</div>
+            </div>
+            <div class="p-4">
+              <h3 class="font-semibold text-slate-800 line-clamp-2 mb-2 group-hover:text-amber-600 transition-colors">有些事众所周知但是不能说</h3>
+              <div class="flex items-center gap-2 text-xs text-slate-500">法国</div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
+<footer class="footer mt-20">
+  <div class="container mx-auto px-4 py-10">
+    <div class="flex flex-col md:flex-row justify-between gap-6">
+      <div>
+        <div class="text-2xl font-bold text-white mb-2">精选电影大全</div>
+        <p class="text-slate-300 max-w-2xl">精选电影大全页面按片单、题材和热度整理内容，适合浏览不同类型的优质影片。</p>
+      </div>
+      <div class="flex flex-wrap gap-3 text-sm">
+        <a href="./index.html" class="hover:text-amber-400">首页</a>
+        <a href="./categories.html" class="hover:text-amber-400">分类</a>
+        <a href="./rankings.html" class="hover:text-amber-400">排行</a>
+        <a href="./movies.html" class="hover:text-amber-400">全部影片</a>
+      </div>
+    </div>
+    <div class="mt-8 pt-6 border-t border-slate-700 text-sm text-slate-400">© 2026 精选电影大全 · 精选影片片单 · 高清电影在线点播</div>
+  </div>
+</footer>
+  <script src="./assets/app.js"></script>
+  <!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,5033714,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?5033714&101" alt="unique visitors counter" border="0"></a></noscript>
+<!-- Histats.com  END  -->
 </body>
 </html>
