@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>影片分类-精选电影大全-精选影片片单-高清电影在线点播</title>
+  <meta name="description" content="精选电影大全页面按片单、题材和热度整理内容，适合浏览不同类型的优质影片。">
+  <meta name="keywords" content="精选电影大全,精选电影,影片片单,高清电影,在线点播,热门电影,电影合集">
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container mx-auto px-4 py-4">
+    <div class="flex items-center justify-between gap-4">
+      <a href="./index.html" class="flex items-center gap-3 group" aria-label="精选电影大全">
+        <div class="w-10 h-10 bg-gradient-to-br from-amber-400 to-orange-500 rounded-lg flex items-center justify-center transform group-hover:scale-110 transition-transform">
+          <span class="text-2xl font-bold text-white">影</span>
+        </div>
+        <div>
+          <div class="text-2xl font-bold bg-gradient-to-r from-amber-300 to-orange-300 bg-clip-text text-transparent">精选电影大全</div>
+          <div class="text-xs text-slate-300">精选片单 高清点播</div>
+        </div>
+      </a>
+      <nav class="hidden md:flex items-center gap-2" aria-label="主导航">
+        <a href="./index.html" class="flex items-center gap-2 px-4 py-2 rounded-lg transition-all hover:bg-slate-600">首页</a>
+<a href="./categories.html" class="flex items-center gap-2 px-4 py-2 rounded-lg transition-all hover:bg-slate-600 nav-link-active">分类</a>
+<a href="./rankings.html" class="flex items-center gap-2 px-4 py-2 rounded-lg transition-all hover:bg-slate-600">排行</a>
+<a href="./movies.html" class="flex items-center gap-2 px-4 py-2 rounded-lg transition-all hover:bg-slate-600">全部影片</a>
+      </nav>
+      <form class="hidden md:flex items-center gap-2" action="./movies.html" method="get">
+        <input type="text" name="q" placeholder="搜索电影..." class="px-4 py-2 rounded-lg bg-slate-600 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-amber-500 w-48">
+        <button type="submit" class="p-2 bg-amber-500 rounded-lg hover:bg-amber-600 transition-colors" aria-label="搜索">搜</button>
+      </form>
+      <button type="button" data-menu-button class="md:hidden p-2 bg-slate-600 rounded-lg" aria-label="打开导航">☰</button>
+    </div>
+    <nav data-mobile-nav class="mobile-nav md:hidden" aria-label="移动导航">
+      <a href="./index.html" class="px-4 py-2 rounded-lg hover:bg-slate-600">首页</a>
+<a href="./categories.html" class="px-4 py-2 rounded-lg hover:bg-slate-600">分类</a>
+<a href="./rankings.html" class="px-4 py-2 rounded-lg hover:bg-slate-600">排行</a>
+<a href="./movies.html" class="px-4 py-2 rounded-lg hover:bg-slate-600">全部影片</a>
+      <form class="flex items-center gap-2 pt-2" action="./movies.html" method="get">
+        <input type="text" name="q" placeholder="搜索电影..." class="flex-1 px-4 py-2 rounded-lg bg-slate-600 text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-amber-500">
+        <button type="submit" class="px-4 py-2 bg-amber-500 rounded-lg hover:bg-amber-600 transition-colors">搜索</button>
+      </form>
+    </nav>
+  </div>
+</header>
+<main class="container mx-auto px-4 py-12">
+  <nav class="breadcrumbs text-sm text-slate-500 mb-6"><a href="./index.html">首页</a> <span>/</span> <span>分类</span></nav>
+  <section class="mb-10">
+    <h1 class="text-4xl font-bold text-slate-800 mb-4">精选影片分类</h1>
+    <p class="text-slate-600 max-w-3xl">精选电影大全页面按片单、题材和热度整理内容，适合浏览不同类型的优质影片。</p>
+  </section>
+  <section class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+    <a href="./category-action.html" class="group relative overflow-hidden rounded-2xl shadow-xl min-h-56 bg-slate-900">
+  <img src="./2.jpg" alt="经典动作" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+  <div class="absolute inset-0 bg-gradient-to-t from-black via-black/45 to-transparent"></div>
+  <div class="absolute bottom-0 p-6 text-white">
+    <h3 class="text-2xl font-bold mb-2">经典动作</h3>
+    <p class="text-slate-200 text-sm line-clamp-2">动作、冒险与强情节影片片单，适合快速发现节奏鲜明的作品。</p>
+  </div>
+</a><a href="./category-crime.html" class="group relative overflow-hidden rounded-2xl shadow-xl min-h-56 bg-slate-900">
+  <img src="./4.jpg" alt="悬疑犯罪" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+  <div class="absolute inset-0 bg-gradient-to-t from-black via-black/45 to-transparent"></div>
+  <div class="absolute bottom-0 p-6 text-white">
+    <h3 class="text-2xl font-bold mb-2">悬疑犯罪</h3>
+    <p class="text-slate-200 text-sm line-clamp-2">悬疑、犯罪、心理博弈与反转叙事影片集合。</p>
+  </div>
+</a><a href="./category-romance-comedy.html" class="group relative overflow-hidden rounded-2xl shadow-xl min-h-56 bg-slate-900">
+  <img src="./1.jpg" alt="爱情喜剧" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+  <div class="absolute inset-0 bg-gradient-to-t from-black via-black/45 to-transparent"></div>
+  <div class="absolute bottom-0 p-6 text-white">
+    <h3 class="text-2xl font-bold mb-2">爱情喜剧</h3>
+    <p class="text-slate-200 text-sm line-clamp-2">爱情、喜剧、轻松治愈与温暖故事精选。</p>
+  </div>
+</a><a href="./category-sci-fi.html" class="group relative overflow-hidden rounded-2xl shadow-xl min-h-56 bg-slate-900">
+  <img src="./10.jpg" alt="科幻奇幻" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+  <div class="absolute inset-0 bg-gradient-to-t from-black via-black/45 to-transparent"></div>
+  <div class="absolute bottom-0 p-6 text-white">
+    <h3 class="text-2xl font-bold mb-2">科幻奇幻</h3>
+    <p class="text-slate-200 text-sm line-clamp-2">科幻设定、奇幻世界与想象力作品合集。</p>
+  </div>
+</a><a href="./category-war-history.html" class="group relative overflow-hidden rounded-2xl shadow-xl min-h-56 bg-slate-900">
+  <img src="./13.jpg" alt="战争历史" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+  <div class="absolute inset-0 bg-gradient-to-t from-black via-black/45 to-transparent"></div>
+  <div class="absolute bottom-0 p-6 text-white">
+    <h3 class="text-2xl font-bold mb-2">战争历史</h3>
+    <p class="text-slate-200 text-sm line-clamp-2">战争、历史、年代与史诗叙事影片片单。</p>
+  </div>
+</a><a href="./category-youth.html" class="group relative overflow-hidden rounded-2xl shadow-xl min-h-56 bg-slate-900">
+  <img src="./54.jpg" alt="青春校园" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+  <div class="absolute inset-0 bg-gradient-to-t from-black via-black/45 to-transparent"></div>
+  <div class="absolute bottom-0 p-6 text-white">
+    <h3 class="text-2xl font-bold mb-2">青春校园</h3>
+    <p class="text-slate-200 text-sm line-clamp-2">青春、校园、成长与友情主题影片精选。</p>
+  </div>
+</a><a href="./category-family.html" class="group relative overflow-hidden rounded-2xl shadow-xl min-h-56 bg-slate-900">
+  <img src="./9.jpg" alt="家庭治愈" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+  <div class="absolute inset-0 bg-gradient-to-t from-black via-black/45 to-transparent"></div>
+  <div class="absolute bottom-0 p-6 text-white">
+    <h3 class="text-2xl font-bold mb-2">家庭治愈</h3>
+    <p class="text-slate-200 text-sm line-clamp-2">家庭、亲情、治愈与温情现实题材影片。</p>
+  </div>
+</a><a href="./category-thriller.html" class="group relative overflow-hidden rounded-2xl shadow-xl min-h-56 bg-slate-900">
+  <img src="./8.jpg" alt="惊悚冒险" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+  <div class="absolute inset-0 bg-gradient-to-t from-black via-black/45 to-transparent"></div>
+  <div class="absolute bottom-0 p-6 text-white">
+    <h3 class="text-2xl font-bold mb-2">惊悚冒险</h3>
+    <p class="text-slate-200 text-sm line-clamp-2">惊悚、冒险、生存与高压情境作品集合。</p>
+  </div>
+</a><a href="./category-animation.html" class="group relative overflow-hidden rounded-2xl shadow-xl min-h-56 bg-slate-900">
+  <img src="./7.jpg" alt="动画奇想" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+  <div class="absolute inset-0 bg-gradient-to-t from-black via-black/45 to-transparent"></div>
+  <div class="absolute bottom-0 p-6 text-white">
+    <h3 class="text-2xl font-bold mb-2">动画奇想</h3>
+    <p class="text-slate-200 text-sm line-clamp-2">动画、幻想、童话和视觉想象力影片片单。</p>
+  </div>
+</a><a href="./category-urban.html" class="group relative overflow-hidden rounded-2xl shadow-xl min-h-56 bg-slate-900">
+  <img src="./6.jpg" alt="都市现实" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+  <div class="absolute inset-0 bg-gradient-to-t from-black via-black/45 to-transparent"></div>
+  <div class="absolute bottom-0 p-6 text-white">
+    <h3 class="text-2xl font-bold mb-2">都市现实</h3>
+    <p class="text-slate-200 text-sm line-clamp-2">都市、人性、社会现实与当代生活题材影片。</p>
+  </div>
+</a><a href="./category-world.html" class="group relative overflow-hidden rounded-2xl shadow-xl min-h-56 bg-slate-900">
+  <img src="./3.jpg" alt="日韩欧美" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+  <div class="absolute inset-0 bg-gradient-to-t from-black via-black/45 to-transparent"></div>
+  <div class="absolute bottom-0 p-6 text-white">
+    <h3 class="text-2xl font-bold mb-2">日韩欧美</h3>
+    <p class="text-slate-200 text-sm line-clamp-2">日韩欧美与跨地域优质影片精选。</p>
+  </div>
+</a><a href="./category-hot.html" class="group relative overflow-hidden rounded-2xl shadow-xl min-h-56 bg-slate-900">
+  <img src="./5.jpg" alt="热门精选" loading="lazy" class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+  <div class="absolute inset-0 bg-gradient-to-t from-black via-black/45 to-transparent"></div>
+  <div class="absolute bottom-0 p-6 text-white">
+    <h3 class="text-2xl font-bold mb-2">热门精选</h3>
+    <p class="text-slate-200 text-sm line-clamp-2">热度高、话题强、适合连续浏览的精选影片。</p>
+  </div>
+</a>
+  </section>
+</main>
+<footer class="footer mt-20">
+  <div class="container mx-auto px-4 py-10">
+    <div class="flex flex-col md:flex-row justify-between gap-6">
+      <div>
+        <div class="text-2xl font-bold text-white mb-2">精选电影大全</div>
+        <p class="text-slate-300 max-w-2xl">精选电影大全页面按片单、题材和热度整理内容，适合浏览不同类型的优质影片。</p>
+      </div>
+      <div class="flex flex-wrap gap-3 text-sm">
+        <a href="./index.html" class="hover:text-amber-400">首页</a>
+        <a href="./categories.html" class="hover:text-amber-400">分类</a>
+        <a href="./rankings.html" class="hover:text-amber-400">排行</a>
+        <a href="./movies.html" class="hover:text-amber-400">全部影片</a>
+      </div>
+    </div>
+    <div class="mt-8 pt-6 border-t border-slate-700 text-sm text-slate-400">© 2026 精选电影大全 · 精选影片片单 · 高清电影在线点播</div>
+  </div>
+</footer>
+  <script src="./assets/app.js"></script>
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
